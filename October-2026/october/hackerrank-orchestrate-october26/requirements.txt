@@ -1,0 +1,17 @@
+# Core LLM clients
+google-generativeai>=0.8.0
+groq>=1.0.0
+
+# PDF text extraction (Milestone 3)
+pdfplumber>=0.11.0
+
+# OCR fallback for image evidence (Milestone 3)
+# pytesseract requires Tesseract-OCR to be installed separately:
+#   Windows: https://github.com/UB-Mannheim/tesseract/wiki
+#   macOS:   brew install tesseract
+#   Linux:   sudo apt install tesseract-ocr
+pytesseract>=0.3.13
+Pillow>=10.0.0
+
+# Workflow orchestration (Milestone 6)
+langgraph>=0.2.0

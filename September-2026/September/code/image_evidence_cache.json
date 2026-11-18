@@ -1,0 +1,18 @@
+{
+  "image_01": {"amount": "4365000", "currency": "IDR", "semantic_field": "net_pay", "confidence": 0.99, "method": "vision_fallback"},
+  "image_02": {"amount": "100000", "currency": "INR", "semantic_field": "balance_due", "confidence": 0.99, "method": "vision_fallback"},
+  "image_03": {"amount": "41272.00", "currency": "INR", "semantic_field": "total_paid", "confidence": 0.99, "method": "vision_fallback"},
+  "image_04": {"amount": "2854.00", "currency": "INR", "semantic_field": "order_total", "confidence": 0.90, "method": "vision_fallback"},
+  "image_05": {"amount": "704.05", "currency": "INR", "semantic_field": "amount_due", "confidence": 0.99, "method": "vision_fallback"},
+  "image_06": {"amount": "1995.00", "currency": "INR", "semantic_field": "invoice_total", "confidence": 0.99, "method": "vision_fallback"},
+  "image_07": {"amount": "8528.10", "currency": "INR", "semantic_field": "invoice_total", "confidence": 0.99, "method": "vision_fallback"},
+  "image_08": {"amount": "15339.00", "currency": "INR", "semantic_field": "amount_received", "confidence": 0.99, "method": "vision_fallback"},
+  "image_09": {"amount": "723.00", "currency": "INR", "semantic_field": "bill_total", "confidence": 0.99, "method": "vision_fallback"},
+  "image_10": {"amount": "79679.26", "currency": "INR", "semantic_field": "balance_due", "confidence": 0.99, "method": "vision_fallback"},
+  "image_11": {"amount": "3650.00", "currency": "INR", "semantic_field": "amount_payable", "confidence": 0.99, "method": "vision_fallback"},
+  "image_12": {"amount": "33.50", "currency": "USD", "semantic_field": "fare_total", "confidence": 0.99, "method": "vision_fallback"},
+  "image_13": {"amount": "2298.00", "currency": "INR", "semantic_field": "total_paid", "confidence": 0.99, "method": "vision_fallback"},
+  "image_14": {"amount": "4543.00", "currency": "INR", "semantic_field": "receipt_total", "confidence": 0.65, "method": "vision_fallback"},
+  "image_15": {"amount": "9968.00", "currency": "INR", "semantic_field": "invoice_total", "confidence": 0.99, "method": "vision_fallback"},
+  "image_16": {"amount": "393.22", "currency": "INR", "semantic_field": "invoice_total", "confidence": 0.99, "method": "vision_fallback"}
+}

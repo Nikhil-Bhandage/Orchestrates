@@ -1,0 +1,509 @@
+{
+  "summary": {
+    "request_count": 25,
+    "affordability_statuses": {
+      "affordable_later": 3,
+      "affordable_now": 5,
+      "affordable_with_plan": 5,
+      "not_affordable": 12
+    },
+    "payment_methods": {
+      "full_payment": 5,
+      "installments": 5,
+      "not_recommended": 12,
+      "wait": 3
+    },
+    "spending_change_usage": {
+      "requests_with_changes": 0,
+      "by_selected_method": {},
+      "actions": {}
+    },
+    "validation_failures": {},
+    "validation_failure_count": 0,
+    "unresolved_fields": {},
+    "requests_with_no_feasible_candidate": 12,
+    "candidate_rejection_counts_for_no_feasible": {
+      "deadline_missed": 41,
+      "payment_preference_conflict": 82,
+      "simulation_infeasible": 22,
+      "wait_requires_full_payment_preference": 1
+    },
+    "sanity_checks": {
+      "all_request_ids_present_once": true,
+      "all_rows_schema_valid": true,
+      "all_rows_valid": true,
+      "impossible_output_flags": [],
+      "distribution_flags": []
+    }
+  },
+  "requests": [
+    {
+      "request_id": "request_01",
+      "selected_method": "not_recommended",
+      "affordability_status": "not_affordable",
+      "amount_safe_to_pay": "17896.72",
+      "payment_plan": "none",
+      "completion_date": "",
+      "minimum_balance_seen": "35896.72",
+      "validation_status": "valid",
+      "validation_errors": [],
+      "reason_codes": [
+        "not_affordable",
+        "no_feasible_candidate"
+      ],
+      "unresolved_fields": [],
+      "home_currency": "ZAR",
+      "currency_consistent": true,
+      "feasible_candidate_count": 0
+    },
+    {
+      "request_id": "request_02",
+      "selected_method": "installments",
+      "affordability_status": "affordable_with_plan",
+      "amount_safe_to_pay": "19808677.6",
+      "payment_plan": "2025-08-08:15952906.67|2025-09-07:15952906.67|2025-10-07:15952906.67",
+      "completion_date": "2025-10-07",
+      "minimum_balance_seen": "33014170.93",
+      "validation_status": "valid",
+      "validation_errors": [],
+      "reason_codes": [
+        "installment_preferred"
+      ],
+      "unresolved_fields": [],
+      "home_currency": "IDR",
+      "currency_consistent": true,
+      "feasible_candidate_count": 4
+    },
+    {
+      "request_id": "request_03",
+      "selected_method": "wait",
+      "affordability_status": "affordable_later",
+      "amount_safe_to_pay": "1043755.81",
+      "payment_plan": "2019-11-13:5491000",
+      "completion_date": "2019-11-13",
+      "minimum_balance_seen": "3712455.81",
+      "validation_status": "valid",
+      "validation_errors": [],
+      "reason_codes": [
+        "waiting_for_income",
+        "minimum_balance_constraint"
+      ],
+      "unresolved_fields": [],
+      "home_currency": "IDR",
+      "currency_consistent": true,
+      "feasible_candidate_count": 12
+    },
+    {
+      "request_id": "request_04",
+      "selected_method": "wait",
+      "affordability_status": "affordable_later",
+      "amount_safe_to_pay": "11986593.66",
+      "payment_plan": "2024-06-14:12693000",
+      "completion_date": "2024-06-14",
+      "minimum_balance_seen": "35657199.24",
+      "validation_status": "valid",
+      "validation_errors": [],
+      "reason_codes": [
+        "waiting_for_income",
+        "minimum_balance_constraint"
+      ],
+      "unresolved_fields": [],
+      "home_currency": "IDR",
+      "currency_consistent": true,
+      "feasible_candidate_count": 4
+    },
+    {
+      "request_id": "request_05",
+      "selected_method": "not_recommended",
+      "affordability_status": "not_affordable",
+      "amount_safe_to_pay": "0",
+      "payment_plan": "none",
+      "completion_date": "",
+      "minimum_balance_seen": "10921.32",
+      "validation_status": "valid",
+      "validation_errors": [],
+      "reason_codes": [
+        "not_affordable",
+        "no_feasible_candidate",
+        "natural_forecast_below_minimum"
+      ],
+      "unresolved_fields": [],
+      "home_currency": "ZAR",
+      "currency_consistent": true,
+      "feasible_candidate_count": 0
+    },
+    {
+      "request_id": "request_06",
+      "selected_method": "full_payment",
+      "affordability_status": "affordable_now",
+      "amount_safe_to_pay": "620.4",
+      "payment_plan": "2026-01-03:620.4",
+      "completion_date": "2026-01-03",
+      "minimum_balance_seen": "1074.44",
+      "validation_status": "valid",
+      "validation_errors": [],
+      "reason_codes": [
+        "sufficient_balance"
+      ],
+      "unresolved_fields": [],
+      "home_currency": "EUR",
+      "currency_consistent": true,
+      "feasible_candidate_count": 3
+    },
+    {
+      "request_id": "request_07",
+      "selected_method": "not_recommended",
+      "affordability_status": "not_affordable",
+      "amount_safe_to_pay": "101903.15",
+      "payment_plan": "none",
+      "completion_date": "",
+      "minimum_balance_seen": "194903.15",
+      "validation_status": "valid",
+      "validation_errors": [],
+      "reason_codes": [
+        "not_affordable",
+        "no_feasible_candidate"
+      ],
+      "unresolved_fields": [],
+      "home_currency": "INR",
+      "currency_consistent": true,
+      "feasible_candidate_count": 0
+    },
+    {
+      "request_id": "request_08",
+      "selected_method": "not_recommended",
+      "affordability_status": "not_affordable",
+      "amount_safe_to_pay": "303.9",
+      "payment_plan": "none",
+      "completion_date": "",
+      "minimum_balance_seen": "1103.9",
+      "validation_status": "valid",
+      "validation_errors": [],
+      "reason_codes": [
+        "not_affordable",
+        "no_feasible_candidate"
+      ],
+      "unresolved_fields": [],
+      "home_currency": "EUR",
+      "currency_consistent": true,
+      "feasible_candidate_count": 0
+    },
+    {
+      "request_id": "request_09",
+      "selected_method": "not_recommended",
+      "affordability_status": "not_affordable",
+      "amount_safe_to_pay": "162.72",
+      "payment_plan": "none",
+      "completion_date": "",
+      "minimum_balance_seen": "762.72",
+      "validation_status": "valid",
+      "validation_errors": [],
+      "reason_codes": [
+        "not_affordable",
+        "no_feasible_candidate"
+      ],
+      "unresolved_fields": [],
+      "home_currency": "EUR",
+      "currency_consistent": true,
+      "feasible_candidate_count": 0
+    },
+    {
+      "request_id": "request_10",
+      "selected_method": "not_recommended",
+      "affordability_status": "not_affordable",
+      "amount_safe_to_pay": "266700",
+      "payment_plan": "none",
+      "completion_date": "",
+      "minimum_balance_seen": "570892.88",
+      "validation_status": "valid",
+      "validation_errors": [],
+      "reason_codes": [
+        "not_affordable",
+        "no_feasible_candidate"
+      ],
+      "unresolved_fields": [],
+      "home_currency": "INR",
+      "currency_consistent": true,
+      "feasible_candidate_count": 0
+    },
+    {
+      "request_id": "request_11",
+      "selected_method": "full_payment",
+      "affordability_status": "affordable_now",
+      "amount_safe_to_pay": "13110000",
+      "payment_plan": "2025-05-03:13110000",
+      "completion_date": "2025-05-03",
+      "minimum_balance_seen": "36912241.52",
+      "validation_status": "valid",
+      "validation_errors": [],
+      "reason_codes": [
+        "sufficient_balance"
+      ],
+      "unresolved_fields": [],
+      "home_currency": "IDR",
+      "currency_consistent": true,
+      "feasible_candidate_count": 5
+    },
+    {
+      "request_id": "request_12",
+      "selected_method": "installments",
+      "affordability_status": "affordable_with_plan",
+      "amount_safe_to_pay": "65164",
+      "payment_plan": "2026-04-19:22590.19|2026-05-20:22590.19|2026-06-20:22590.19",
+      "completion_date": "2026-06-20",
+      "minimum_balance_seen": "47085.08",
+      "validation_status": "valid",
+      "validation_errors": [],
+      "reason_codes": [
+        "installment_preferred"
+      ],
+      "unresolved_fields": [],
+      "home_currency": "ZAR",
+      "currency_consistent": true,
+      "feasible_candidate_count": 4
+    },
+    {
+      "request_id": "request_13",
+      "selected_method": "full_payment",
+      "affordability_status": "affordable_now",
+      "amount_safe_to_pay": "941.6",
+      "payment_plan": "2024-03-07:941.6",
+      "completion_date": "2024-03-07",
+      "minimum_balance_seen": "1639.56",
+      "validation_status": "valid",
+      "validation_errors": [],
+      "reason_codes": [
+        "sufficient_balance"
+      ],
+      "unresolved_fields": [],
+      "home_currency": "EUR",
+      "currency_consistent": true,
+      "feasible_candidate_count": 9
+    },
+    {
+      "request_id": "request_14",
+      "selected_method": "not_recommended",
+      "affordability_status": "not_affordable",
+      "amount_safe_to_pay": "0",
+      "payment_plan": "none",
+      "completion_date": "",
+      "minimum_balance_seen": "649.51",
+      "validation_status": "valid",
+      "validation_errors": [],
+      "reason_codes": [
+        "not_affordable",
+        "no_feasible_candidate",
+        "natural_forecast_below_minimum"
+      ],
+      "unresolved_fields": [],
+      "home_currency": "EUR",
+      "currency_consistent": true,
+      "feasible_candidate_count": 0
+    },
+    {
+      "request_id": "request_15",
+      "selected_method": "not_recommended",
+      "affordability_status": "not_affordable",
+      "amount_safe_to_pay": "0",
+      "payment_plan": "none",
+      "completion_date": "",
+      "minimum_balance_seen": "608.22",
+      "validation_status": "valid",
+      "validation_errors": [],
+      "reason_codes": [
+        "not_affordable",
+        "no_feasible_candidate",
+        "natural_forecast_below_minimum"
+      ],
+      "unresolved_fields": [],
+      "home_currency": "EUR",
+      "currency_consistent": true,
+      "feasible_candidate_count": 0
+    },
+    {
+      "request_id": "request_16",
+      "selected_method": "full_payment",
+      "affordability_status": "affordable_now",
+      "amount_safe_to_pay": "122500",
+      "payment_plan": "2023-08-12:122500",
+      "completion_date": "2023-08-12",
+      "minimum_balance_seen": "129684.24",
+      "validation_status": "valid",
+      "validation_errors": [],
+      "reason_codes": [
+        "sufficient_balance"
+      ],
+      "unresolved_fields": [],
+      "home_currency": "INR",
+      "currency_consistent": true,
+      "feasible_candidate_count": 2
+    },
+    {
+      "request_id": "request_17",
+      "selected_method": "installments",
+      "affordability_status": "affordable_with_plan",
+      "amount_safe_to_pay": "274600",
+      "payment_plan": "2026-03-01:95194.67|2026-03-31:95194.67|2026-04-30:95194.67",
+      "completion_date": "2026-04-30",
+      "minimum_balance_seen": "349423.38",
+      "validation_status": "valid",
+      "validation_errors": [],
+      "reason_codes": [
+        "installment_preferred"
+      ],
+      "unresolved_fields": [],
+      "home_currency": "INR",
+      "currency_consistent": true,
+      "feasible_candidate_count": 4
+    },
+    {
+      "request_id": "request_18",
+      "selected_method": "wait",
+      "affordability_status": "affordable_later",
+      "amount_safe_to_pay": "662.19",
+      "payment_plan": "2026-08-14:3246.1",
+      "completion_date": "2026-08-14",
+      "minimum_balance_seen": "2062.19",
+      "validation_status": "valid",
+      "validation_errors": [],
+      "reason_codes": [
+        "waiting_for_income",
+        "minimum_balance_constraint"
+      ],
+      "unresolved_fields": [],
+      "home_currency": "EUR",
+      "currency_consistent": true,
+      "feasible_candidate_count": 3
+    },
+    {
+      "request_id": "request_19",
+      "selected_method": "installments",
+      "affordability_status": "affordable_with_plan",
+      "amount_safe_to_pay": "39660",
+      "payment_plan": "2024-09-04:20623.2|2024-10-02:20623.2",
+      "completion_date": "2024-10-02",
+      "minimum_balance_seen": "141607.09",
+      "validation_status": "valid",
+      "validation_errors": [],
+      "reason_codes": [
+        "installment_preferred"
+      ],
+      "unresolved_fields": [],
+      "home_currency": "INR",
+      "currency_consistent": true,
+      "feasible_candidate_count": 4
+    },
+    {
+      "request_id": "request_20",
+      "selected_method": "not_recommended",
+      "affordability_status": "not_affordable",
+      "amount_safe_to_pay": "23818.52",
+      "payment_plan": "none",
+      "completion_date": "",
+      "minimum_balance_seen": "88318.52",
+      "validation_status": "valid",
+      "validation_errors": [],
+      "reason_codes": [
+        "not_affordable",
+        "no_feasible_candidate"
+      ],
+      "unresolved_fields": [],
+      "home_currency": "INR",
+      "currency_consistent": true,
+      "feasible_candidate_count": 0
+    },
+    {
+      "request_id": "request_21",
+      "selected_method": "full_payment",
+      "affordability_status": "affordable_now",
+      "amount_safe_to_pay": "1574.4",
+      "payment_plan": "2026-04-03:1574.4",
+      "completion_date": "2026-04-03",
+      "minimum_balance_seen": "1877.94",
+      "validation_status": "valid",
+      "validation_errors": [],
+      "reason_codes": [
+        "sufficient_balance"
+      ],
+      "unresolved_fields": [],
+      "home_currency": "USD",
+      "currency_consistent": true,
+      "feasible_candidate_count": 13
+    },
+    {
+      "request_id": "request_22",
+      "selected_method": "installments",
+      "affordability_status": "affordable_with_plan",
+      "amount_safe_to_pay": "503.12",
+      "payment_plan": "2024-12-08:253.59|2025-01-05:253.59|2025-02-02:253.59",
+      "completion_date": "2025-02-02",
+      "minimum_balance_seen": "685.55",
+      "validation_status": "valid",
+      "validation_errors": [],
+      "reason_codes": [
+        "installment_preferred"
+      ],
+      "unresolved_fields": [],
+      "home_currency": "EUR",
+      "currency_consistent": true,
+      "feasible_candidate_count": 4
+    },
+    {
+      "request_id": "request_23",
+      "selected_method": "not_recommended",
+      "affordability_status": "not_affordable",
+      "amount_safe_to_pay": "8263.15",
+      "payment_plan": "none",
+      "completion_date": "",
+      "minimum_balance_seen": "35263.15",
+      "validation_status": "valid",
+      "validation_errors": [],
+      "reason_codes": [
+        "not_affordable",
+        "no_feasible_candidate"
+      ],
+      "unresolved_fields": [],
+      "home_currency": "ZAR",
+      "currency_consistent": true,
+      "feasible_candidate_count": 0
+    },
+    {
+      "request_id": "request_24",
+      "selected_method": "not_recommended",
+      "affordability_status": "not_affordable",
+      "amount_safe_to_pay": "15056.98",
+      "payment_plan": "none",
+      "completion_date": "",
+      "minimum_balance_seen": "66056.98",
+      "validation_status": "valid",
+      "validation_errors": [],
+      "reason_codes": [
+        "not_affordable",
+        "no_feasible_candidate"
+      ],
+      "unresolved_fields": [],
+      "home_currency": "INR",
+      "currency_consistent": true,
+      "feasible_candidate_count": 0
+    },
+    {
+      "request_id": "request_25",
+      "selected_method": "not_recommended",
+      "affordability_status": "not_affordable",
+      "amount_safe_to_pay": "3838582.88",
+      "payment_plan": "none",
+      "completion_date": "",
+      "minimum_balance_seen": "27217682.88",
+      "validation_status": "valid",
+      "validation_errors": [],
+      "reason_codes": [
+        "not_affordable",
+        "no_feasible_candidate"
+      ],
+      "unresolved_fields": [],
+      "home_currency": "IDR",
+      "currency_consistent": true,
+      "feasible_candidate_count": 0
+    }
+  ]
+}

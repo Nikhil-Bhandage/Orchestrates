@@ -1,0 +1,23 @@
+# Environment variables and API keys
+.env
+.env.*
+*.env
+
+# Python byte-code and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+
+# System / editor artifacts
+.agents/
+.system_generated/
+.DS_Store
+Thumbs.db
